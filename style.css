@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", Helvetica, sans-serif;
+    
+}
+
+/* misc */
+
+.center {
+    margin: 0 auto;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.top-space {
+    margin-top: 30px;
+}
+
+.bottom-spacce {
+    margin-bottom: 30px;
+}
+
+
+/* styles for header */
+
+header {
+    background-color: #484D53;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+header h1, header p {
+    color: #fff;
+    padding: 0 35%;
+}
+
+/* styles for nav */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #949495;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin-bottom: 35vh;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #949495;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.home, nav ul li a:hover {
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+nav h2 {
+    color: white;
+    font-size: 2em;
+}
+
+/* styles for main */
+
+.container1 {
+    background-color: #F8F9FA;
+}
+
+.container1 h1 {
+    color: #F69314;
+}
