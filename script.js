@@ -10,6 +10,7 @@ window.addEventListener('scroll', function() {
 
         if (window.scrollY > scrollThreshold) {
             nav.style.backgroundColor = '#fff';
+            nav.style.padding = '25px'
             nav.style.transitionDuration = '1s'
             title.style.color = "#000"
             home.style.color = '#F69314'
@@ -20,6 +21,7 @@ window.addEventListener('scroll', function() {
             link5.style.color = '#000'
         } else {
             nav.style.backgroundColor = '#484D53';
+            nav.style.padding = '30px'
             nav.style.transitionDuration = '0.3s'
             title.style.color = '#fff'
             home.style.color = '#fff'
